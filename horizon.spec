@@ -9,23 +9,23 @@ Url: https://github.com/horizon-eda/horizon
 
 Source: https://github.com/horizon-eda/horizon/archive/refs/tags/v%version.tar.gz
 
-BuildRequires: meson cmake
-BuildRequires: gcc-c++ libgtkmm3-devel
-BuildRequires: libsqlite3-devel
-BuildRequires: libzip-devel
-BuildRequires: libuuid-devel
-BuildRequires: libepoxy-devel
-BuildRequires: librsvg-devel
-BuildRequires: libpodofo-devel
-BuildRequires: libzeromq-cpp-devel
-BuildRequires: libgit2-devel
-BuildRequires: libcurl-devel
-BuildRequires: libglm-devel
-BuildRequires: boost-devel-headers
-BuildRequires: opencascade-devel
-BuildRequires: libsigc++2-devel
+BuildRequires: meson
+BuildRequires: cmake
+BuildRequires: gcc-c++
+BuildRequires: cppzmq-devel
+BuildRequires: cairomm-devel
+BuildRequires: boost-devel
+BuildRequires: glm-devel
+BuildRequires: gtkmm30-devel
 BuildRequires: libarchive-devel
+BuildRequires: libcurl-devel
+BuildRequires: libgit2-devel
+BuildRequires: librsvg2-devel
 BuildRequires: libspnav-devel
+BuildRequires: libuuid-devel
+BuildRequires: opencascade-devel
+BuildRequires: podofo-devel
+BuildRequires: sqlite-devel
 
 %description
 %summary.
