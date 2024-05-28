@@ -31,7 +31,7 @@ BuildRequires: sqlite-devel
 %summary.
 
 %prep
-%setup
+%autosetup -v -n %{name}-%{version}
 
 %build
 %meson
