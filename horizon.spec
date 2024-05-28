@@ -1,4 +1,6 @@
-Name: horizon-eda
+%global shortname horizon
+
+Name: %{shortname}-eda
 Version: 2.6.0
 Release: 1{?dist}
 
@@ -31,7 +33,7 @@ BuildRequires: sqlite-devel
 %summary.
 
 %prep
-%autosetup -v -n %{name}-%{version}
+%autosetup -v -n %{shortname}-%{version}
 
 %build
 %meson
