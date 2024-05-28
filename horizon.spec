@@ -7,7 +7,7 @@ License: GPL-3.0-or-later
 Group: Engineering
 Url: https://github.com/horizon-eda/horizon
 
-Source: %name-%version.tar
+Source: https://github.com/horizon-eda/horizon/archive/refs/tags/v%version.tar.gz
 
 BuildRequires: meson cmake
 BuildRequires: gcc-c++ libgtkmm3-devel
