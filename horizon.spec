@@ -49,3 +49,4 @@ BuildRequires: sqlite-devel
 %doc *.md
 
 %changelog
+%autochangelog
