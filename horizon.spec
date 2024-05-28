@@ -1,4 +1,4 @@
-Name: horizon
+Name: horizon-eda
 Version: 2.6.0
 Release: 1
 
