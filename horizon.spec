@@ -44,11 +44,13 @@ BuildRequires: sqlite-devel
 %meson_install
 
 %files
+%doc *.md
+%license LICENSE
 %_bindir/*
-%_desktopdir/*
 %_iconsdir/hicolor/*/apps/*
 %_datadir/metainfo/*
-%doc *.md
+%{_mandir}/man1/*.1*
+%{_datadir}/applications/org.horizon_eda.HorizonEDA.desktop
 
 %changelog
 %autochangelog
