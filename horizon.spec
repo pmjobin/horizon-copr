@@ -1,6 +1,6 @@
 Name: horizon-eda
 Version: 2.6.0
-Release: 1
+Release: 1{%dist}
 
 Summary: Horizon is a free EDA package
 License: GPL-3.0-or-later
