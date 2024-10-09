@@ -1,8 +1,9 @@
+%global optflags %{optflags} -fpermissive
 %global shortname horizon
 
 Name: %{shortname}-eda
 Version: 2.6.0
-Release: 1%{?dist}
+Release: 2%{?dist}
 
 Summary: Horizon is a free EDA package
 License: GPL-3.0-or-later
