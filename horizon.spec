@@ -2,7 +2,7 @@
 %global shortname horizon
 
 Name: %{shortname}-eda
-Version: 2.7.0
+Version: 2.7.1
 Release: 1%{?dist}
 
 Summary: Horizon is a free EDA package
@@ -39,7 +39,6 @@ BuildRequires: sqlite-devel
 %build
 %meson
 %meson_build
-
 
 %install
 %meson_install
