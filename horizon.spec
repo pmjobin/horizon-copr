@@ -27,7 +27,7 @@ BuildRequires: librsvg2-devel
 BuildRequires: libspnav-devel
 BuildRequires: libuuid-devel
 BuildRequires: opencascade-devel
-BuildRequires: podofo-devel
+BuildRequires: podofo0.10-devel
 BuildRequires: sqlite-devel
 
 %description
