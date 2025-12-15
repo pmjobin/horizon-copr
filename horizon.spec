@@ -2,7 +2,7 @@
 %global shortname horizon
 
 Name: %{shortname}-eda
-Version: 2.7.1
+Version: 2.7.2
 Release: 1%{?dist}
 
 Summary: Horizon is a free EDA package
